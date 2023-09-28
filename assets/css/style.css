@@ -1,0 +1,213 @@
+/* estilos da minha página web*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: #05192a;
+}
+
+.image-1 {
+    width: 500px;
+    height: 200px;
+}
+
+/* ────────────────────────────── */
+/* geral */
+.text-center {
+    text-align: center;
+}
+
+.margin-top {
+    margin-top: 40px;
+}
+
+/* ────────────────────────────── */
+.container-cabecalho {
+    text-align: center;
+    padding: 20px;
+    background-color: #013a63;
+}
+
+.container-cabecalho h3 {
+    font-weight: 600;
+    font-size: 2em;
+    color: rgb(243, 239, 239);
+    font-family: cursive;
+}
+
+/* ────────────────────────────── */
+.container-navegacao {
+    text-align: center;
+    padding: 1vw;
+    background-color: #86c0f7;
+    border: solid thin rgb(76, 55, 95);
+    border-radius: 10px;
+    margin: 1px auto;
+}
+
+.container-navegacao a{
+    text-decoration: none;
+    font-size: 3.5vh;
+    margin: 10px 4vw;
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+}
+
+.container-navegacao a:hover {
+    color: white;
+}
+
+/* ────────────────────────────── */
+.container-quem-sou {
+    overflow: auto;
+    text-align: center;
+    color: rgb(8, 8, 10);
+}
+
+.container-quem-sou img {
+    width: 70px;
+    height: 70px;
+    margin-bottom: 10px;
+}
+
+.container-quem-sou .experiencias {
+    float: center;
+    margin: 60px auto;
+    background-color: #86c0f7;
+    width: 50%;
+    padding: 50px;
+    border-radius: 10px;
+}
+
+
+.container-quem-sou .experiencias-texto {
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 20px;
+    font-size: 1.2em;
+    text-align: justify;
+    color: rgb(48, 30, 30);
+}
+
+.experiencias-texto-realce {
+    color: white;
+    font-weight: bold;
+}
+
+
+/* ────────────────────────────── */
+.container-servicos {
+    font-size: 1.1em;
+    padding: 60px;
+    overflow: auto;
+}
+
+.container-servicos h1 {
+    font-size: 3em;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.container-servicos h3 {
+    font-size: 1.5em;
+    color: #1c0449;
+    padding: 0px 5px 10px 10px;
+}
+
+.container-servicos li {
+    margin-bottom: 10px;
+    margin-left: 50px;
+    color: rgb(48, 30, 30);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.2em;
+    text-align: justify;
+    margin: 60px auto;
+}
+
+.container-servicos .servico {
+    float: center;
+    margin: 60px auto;
+    width: 50%;
+    background-color: #86c0f7;
+    padding: 50px;
+    border-radius: 10px; 
+}
+
+/* ────────────────────────────── */
+.container-contatos {
+    background-color: #05192a;
+    padding: 80px;
+}
+
+.container-contatos img {
+    width: 60px;
+    height: 60px;
+}
+
+.container-contatos h1 {
+    font-size: 3em;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.container-contatos h3 {
+    font-size: 1.5em;
+    font-weight: 100;
+    width: 30%;
+    margin: auto;
+    color: white;
+    margin-bottom: 20px;
+    border: 1px solid #105088;
+    background-color: #08253f;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.container-contatos .contatos {
+    display: block;
+    font-size: 2em;
+    text-decoration: none;
+    color: #00a2ff;
+    margin-bottom: 20px;
+}
+
+/* ────────────────────────────── */
+.container-servicos-contatos {
+    background-color: #0b2a3f;
+    padding: 40px;
+    text-align: center;
+}
+
+.container-servicos-contatos .botoes-servicos-contatos {
+    padding: 30px;
+    text-align: center;
+}
+
+.container-servicos-contatos a {
+    display: block;
+    max-width: 200px;
+    text-decoration: none;
+    font-size: 1.2em;
+    background-color: #0f85a8;
+    color: white;
+    padding: 20px 60px;
+    margin: 15px auto;
+    border-radius: 10px;
+}
+
+.container-servicos-contatos a:hover {
+    background-color: white;
+    color: black;
+}
+
+/* ────────────────────────────── */
+footer {
+    text-align: center;
+    padding: 60px;
+    background-color: #02111f;
+    color: grey;
+}
